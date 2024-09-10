@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T22:30:16 IST" name="BrowserStack Suite" finished-at="2024-09-10T22:30:42 IST" duration-ms="26036">
+    <groups>
+    </groups>
+    <test started-at="2024-09-10T22:30:16 IST" name="BrowserStack Test Chrome" finished-at="2024-09-10T22:30:31 IST" duration-ms="15486">
+      <class name="com.browserstack.TestBrowserStack">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.browserstack.TestBrowserStack@4c60d6e9]" started-at="2024-09-10T22:30:16 IST" name="setUp" finished-at="2024-09-10T22:30:25 IST" duration-ms="9302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void com.browserstack.TestBrowserStack.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.browserstack.TestBrowserStack@4c60d6e9]" started-at="2024-09-10T22:30:25 IST" name="loginTest" finished-at="2024-09-10T22:30:30 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.TestBrowserStack@4c60d6e9]" started-at="2024-09-10T22:30:30 IST" name="tearDown" finished-at="2024-09-10T22:30:31 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.TestBrowserStack -->
+    </test> <!-- BrowserStack Test Chrome -->
+    <test started-at="2024-09-10T22:30:16 IST" name="BrowserStack Test Firefox" finished-at="2024-09-10T22:30:41 IST" duration-ms="25578">
+      <class name="com.browserstack.TestBrowserStack">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.browserstack.TestBrowserStack@740fb309]" started-at="2024-09-10T22:30:16 IST" name="setUp" finished-at="2024-09-10T22:30:35 IST" duration-ms="19423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void com.browserstack.TestBrowserStack.loginTest2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest2()[pri:1, instance:com.browserstack.TestBrowserStack@740fb309]" started-at="2024-09-10T22:30:35 IST" name="loginTest2" finished-at="2024-09-10T22:30:40 IST" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.TestBrowserStack@740fb309]" started-at="2024-09-10T22:30:40 IST" name="tearDown" finished-at="2024-09-10T22:30:41 IST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.TestBrowserStack -->
+    </test> <!-- BrowserStack Test Firefox -->
+    <test started-at="2024-09-10T22:30:31 IST" name="BrowserStack Test Edge" finished-at="2024-09-10T22:30:42 IST" duration-ms="10448">
+      <class name="com.browserstack.TestBrowserStack">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.browserstack.TestBrowserStack@43f02ef2]" started-at="2024-09-10T22:30:31 IST" name="setUp" finished-at="2024-09-10T22:30:37 IST" duration-ms="5409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sonoma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void com.browserstack.TestBrowserStack.loginTest3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest3()[pri:2, instance:com.browserstack.TestBrowserStack@43f02ef2]" started-at="2024-09-10T22:30:37 IST" name="loginTest3" finished-at="2024-09-10T22:30:40 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.TestBrowserStack@43f02ef2]" started-at="2024-09-10T22:30:40 IST" name="tearDown" finished-at="2024-09-10T22:30:42 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.TestBrowserStack -->
+    </test> <!-- BrowserStack Test Edge -->
+  </suite> <!-- BrowserStack Suite -->
+</testng-results>
