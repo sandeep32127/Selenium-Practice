@@ -8,7 +8,6 @@ import java.net.URL;
 
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -26,15 +25,7 @@ public class BaseTest {
 	
 	@Parameters({"os","osVersion","browserName","browserVersion"})
 	@BeforeMethod
-	public void setUp(String os, String osVersion, String browserName, String browserVersion, Method name) {
-		//DesiredCapabilities dc = new DesiredCapabilities();
-
-		/*dc.setCapability("os", "Windows");
-		dc.setCapability("osVersion", "11");
-		dc.setCapability("browserName", "Chrome");
-		dc.setCapability("browserVersion", "latest");*/
-		//dc.setCapability("name", name.getName());
-		
+	public void setUp(String os, String osVersion, String browserName, String browserVersion, Method name) {	
 		capabilities = new MutableCapabilities();
 		bstackOptions = new HashMap<String, Object>();
 		
