@@ -49,6 +49,7 @@ public class ScreenShotWebelement {
 	 */
 	public static void takeScreenshot(WebElement ele , String fileName) {
 		File srcFile = ele.getScreenshotAs(OutputType.FILE);
+		//byte[] screenshotAs = ele.getScreenshotAs(OutputType.BYTES);
 		File destFile = new File("./screenshots/"+fileName+System.currentTimeMillis()+".png");
 		try {
 			FileUtils.copyFile(srcFile, destFile);
