@@ -1,5 +1,7 @@
 package cm.javapractice;
 
+import java.util.stream.IntStream;
+
 public class DoubleMinValue {
 
 	public static void main(String[] args) {
@@ -13,6 +15,8 @@ public class DoubleMinValue {
 		System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
 		
 		System.out.println(Math.min(Double.MIN_VALUE, Double.NEGATIVE_INFINITY));
+		
+		IntStream.range(1, 101).forEach(e -> System.out.println(e));
 	}
 
 }

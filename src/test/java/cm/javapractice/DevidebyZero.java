@@ -7,11 +7,13 @@ public class DevidebyZero {
 		//System.out.println(0/0);
 		System.out.println(0.0/0);
 		System.out.println(0/0.0);
+		System.out.println(0.0/0.0);
 		System.out.println(12.22/0);
 		System.out.println(12.22/0.0);
 		System.out.println(7/0.0);
 		System.out.println(12.897d/0);
 		System.out.println(645.887f / 0);
+		System.out.println(645.887f / 0.0);
 	}
 
 }

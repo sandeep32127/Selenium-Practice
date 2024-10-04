@@ -22,6 +22,7 @@ public class Nan {
 		System.out.println(nan != nan);
 		
 		System.out.println(Math.floor(10.9999));
+		System.out.println(Math.floor(10.20));
 	}
 
 }
